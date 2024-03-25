@@ -1,6 +1,6 @@
 import { app } from "./main";
 
-export const generateSiteContent = ():void => {
+export const generateHTMLCooking = ():void => {
 
     let contentDiv = document.createElement('div');
     contentDiv.setAttribute('class', 'site-content')
