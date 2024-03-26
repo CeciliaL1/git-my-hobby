@@ -53,4 +53,19 @@
             }
         }
     }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 30px;
+        padding: 60px;
+        font-size: 1.4rem;
+
+        a {
+            cursor: pointer;
+            color: black;
+        }
+    }
+
 }
