@@ -21,7 +21,7 @@ export const generateHTMLHeader = ():void => {
     let menuUl = document.createElement('ul')
     
     
-    headerSvg.addEventListener('click', (e:Event) => {
+    headerSvg.addEventListener('click', () => {
         menuContainer.classList.toggle('menu-container')
 
         if(menuContainer.attributes[0].textContent === 'menu-container'){
