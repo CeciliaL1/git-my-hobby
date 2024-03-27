@@ -17,6 +17,10 @@
         h1 {
             margin-top: 17px;
         }
+
+        img {
+            cursor: pointer;
+        }
     }
 
     .site-content {
@@ -74,7 +78,9 @@
         top: 150px;
         width: 920px;
         height: 100vh;
-        background-color: rgba(154, 155, 154);
+        background-color: rgb(190, 191, 190);
+        border-radius: 50px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
         ul {
 
