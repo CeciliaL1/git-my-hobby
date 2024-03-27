@@ -1,4 +1,7 @@
 import { app } from "./main";
+/**
+ * This will generate a bciv whith information about my hobby
+ */
 
 export const generateHTMLCooking = ():void => {
 
