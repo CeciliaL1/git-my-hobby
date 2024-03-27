@@ -1,12 +1,18 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(183, 197, 182);
 }
 
 #app {
     font-family: monospace;
     max-width: 900px;
     margin: auto;
+
 
     .header-div {
         display: flex;
@@ -29,7 +35,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 40px;
-
+        background-color: rgb(141, 154, 140);
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
         .food-img {
