@@ -75,5 +75,23 @@
         width: 920px;
         height: 100vh;
         background-color: rgb(223, 245, 239);
+
+        ul {
+
+            li {
+                list-style: none;
+                cursor: pointer;
+                margin: 80px;
+                padding: 20px;
+                text-align: center;
+                font-size: 2rem;
+
+                &:hover {
+                    border-radius: 20px;
+
+                    background-color: rgb(123, 136, 133, 0.5);
+                }
+            }
+        }
     }
 }
