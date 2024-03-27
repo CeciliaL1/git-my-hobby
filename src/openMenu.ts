@@ -8,8 +8,6 @@ export const openMenu = (menuContainer: HTMLDivElement, menuNav:HTMLElement, men
     menuNav.innerHTML = '';
     menuUl.innerHTML = '';
    
-    
-   
 
     let menuItems = ['Home', 'My Favorite Ingrediens', 'My Cookware', 'Contact'] 
 
