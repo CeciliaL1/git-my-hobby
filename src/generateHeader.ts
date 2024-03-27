@@ -20,7 +20,6 @@ export const generateHTMLHeader = ():void => {
     let menuNav = document.createElement('nav');
     let menuUl = document.createElement('ul')
     
-    
     headerSvg.addEventListener('click', () => {
         menuContainer.classList.toggle('menu-container')
 

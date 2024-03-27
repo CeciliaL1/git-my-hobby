@@ -10,7 +10,6 @@ export const generateFooter = ():void => {
     let nameInfo = document.createElement('p');
     nameInfo.textContent = 'Cecilia Lepik';
 
-
     let footerRightDiv = document.createElement('div');
     footerRightDiv.setAttribute('class', 'footer-right-div');
 
