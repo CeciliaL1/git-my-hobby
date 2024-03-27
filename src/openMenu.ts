@@ -2,11 +2,14 @@
 import { app } from "./main";
 
 
-export const openMenu = (menuContainer: HTMLDivElement):void => {
+export const openMenu = (menuContainer: HTMLDivElement, menuNav:HTMLElement, menuUl: HTMLUListElement):void => {
 
-    let menuNav = document.createElement('nav');
-
-    let menuUl = document.createElement('ul')
+    menuContainer.innerHTML = '';
+    menuNav.innerHTML = '';
+    menuUl.innerHTML = '';
+   
+    
+   
 
     let menuItems = ['Home', 'My Favorite Ingrediens', 'My Cookware', 'Contact'] 
 

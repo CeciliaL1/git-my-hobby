@@ -17,14 +17,18 @@ export const generateHTMLHeader = ():void => {
 
       
     let menuContainer = document.createElement('div');
+    let menuNav = document.createElement('nav');
+    let menuUl = document.createElement('ul')
     
     
-   
-    
-
-    headerSvg.addEventListener('click', () => {
+    headerSvg.addEventListener('click', (e:Event) => {
         menuContainer.classList.toggle('menu-container')
-        openMenu(menuContainer)
+
+        if(menuContainer.attributes[0].textContent === 'menu-container'){
+            openMenu(menuContainer, menuNav,menuUl)
+        } else {
+            menuContainer.innerHTML = '';
+         }
     })
 
     headerDiv.append(heading, headerSvg)
