@@ -19,6 +19,21 @@
 
 ## Final result
 
+### Header
+
+![Skärmbild 2024-03-27 192904](https://github.com/CeciliaL1/git-my-hobby/assets/114854577/bab2d7f5-c6d8-44dd-845c-47567ff39e9e)
+
+### Main content
+
+![Skärmbild 2024-03-27 192909](https://github.com/CeciliaL1/git-my-hobby/assets/114854577/ba1abaab-bb8a-448d-83d1-1e6709f8df0e)
+
+### Menu
+
+![Skärmbild 2024-03-27 192954](https://github.com/CeciliaL1/git-my-hobby/assets/114854577/25165b46-0565-4254-9494-a97c393f6bb3)
+
+### Footer
+
+![Skärmbild 2024-03-27 192917](https://github.com/CeciliaL1/git-my-hobby/assets/114854577/51fa9fce-9802-4e50-8dbd-8fbfffd3ed4a)
 
 
 ## Start project
@@ -39,8 +54,8 @@ sass
 
 ## Lessons learned
 
-How to correcly user in terminal:
-git cherry-pick
-git rebase
-git merge
+How to correcly use in terminal:
+- git cherry-pick
+- git rebase
+- git merge
 
