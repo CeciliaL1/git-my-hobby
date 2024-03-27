@@ -1,5 +1,9 @@
 import { app } from "./main";
 
+/**
+ * this will generate my footer with icon
+ */
+
 export const generateFooter = ():void => {
     let footerContainer = document.createElement('footer');
     footerContainer.setAttribute('class', 'footer-container')

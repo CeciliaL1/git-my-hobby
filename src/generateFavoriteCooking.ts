@@ -1,5 +1,9 @@
 import { app } from "./main";
 
+/**
+ * This will generate a div with information about my favorite thing to cook
+ */
+
 export const generateHTMLFavoriteCooking = ():void => {
 
     let contentDiv = document.createElement('div');

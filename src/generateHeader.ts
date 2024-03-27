@@ -2,6 +2,9 @@
 import { app } from './main'
 import { openMenu } from './openMenu'
 
+/**
+ * this will generate header with menu button
+ */
 
 export const generateHTMLHeader = ():void => {
       
